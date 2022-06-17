@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns:v-bind="http://www.w3.org/1999/xhtml"
+      xmlns:v-on="http://www.w3.org/1999/xhtml"
+>
+<head>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script defer src="/js/products.js"></script>
+    <meta charset="UTF-8">
+    <title>Products available</title>
+</head>
+<body>
+<div id="app">
+    <div class="product" id="maintable">
+
+            <div>
+
+                <!--                {{ product.id }},-->
+                {{ product.model }},
+                {{ product.brand }},
+                ${{ product.price }},
+                {{ product.quantity }} available
+
+<!--                <button v-on:click="showById(product)">-->
+<!--                    show product-->
+<!--                </button>-->
+
+                <button v-on:click="update = true; changeProduct = {}">
+                    <!--                <button v-on:click="debug(product)">-->
+                    update
+                </button>
+
+                <button v-on:click="deleteProduct(product)">
+                    <!--                <button v-on:click="debug(product)">-->
+                    delete
+                </button>
+
+
+            </div>
+
+
+    </div>
+
+</div>
+</body>
+</html>

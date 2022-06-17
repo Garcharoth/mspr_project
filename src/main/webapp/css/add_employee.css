@@ -1,0 +1,18 @@
+html {
+    background-color: #2e2e2e;
+}
+
+body {
+    background-color: #2e2e2e;
+}
+
+.employee {
+    font-size: 42px;
+    font-family: Calibri, serif;
+    color: white;
+}
+
+.form_employee {
+    font-family: Calibri, serif;
+    color: white;
+}

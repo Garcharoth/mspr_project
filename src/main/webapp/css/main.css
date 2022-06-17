@@ -1,0 +1,39 @@
+html {
+    background-color: #202124;
+}
+
+body {
+    background: url('../resources/Bogapp_fond_1_testopacity.jpg') repeat-x, repeat-y;
+    padding-top: 50px;
+    padding-bottom: 450px;
+}
+
+.main_title {
+    font-family: "Bauhaus 93", serif;
+    color: black;
+    font-weight: bold;
+    font-size: 500%;
+    text-align: center;
+}
+
+.main_subtitle {
+    font-family: "Bauhaus 93", serif;
+    color: #2e2e2e;
+    font-weight: lighter;
+    font-size: 180%;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.cio {
+    font-family: Calibri, serif;
+    color: crimson;
+    font-weight: bold;
+    font-size: 200%;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.last_button {
+    padding-bottom: 100px;
+}
